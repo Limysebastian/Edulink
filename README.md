@@ -1,51 +1,80 @@
-# Clime
+# 📘 EduLink
 
-I have create Clima project for practice purposes.
-Given project in Automatically catch your city weather. if you find another city weather than it is posible in this app.
+EduLink is a classroom management app where teachers and students can register. Teachers can add attendance, share notes (PDFs), make announcements, upload test papers, and view student details. Students have limited access to view only the content shared by teachers.
 
-<br>
+## 📱 Screenshots
 
-## Support
+<p align="center">
+  <img src="screenshots/screenshot1.jpeg" width="200"/>
+  <img src="screenshots/screenshot2.jpeg" width="200"/>
+  <img src="screenshots/screenshot3.jpeg" width="200"/>
+  <img src="screenshots/screenshot4.jpeg" width="200"/>
+  <img src="screenshots/screenshot5.jpeg" width="200"/>
+  <img src="screenshots/screenshot6.jpeg" width="200"/>
+</p>
 
-![MIT License](https://img.shields.io/badge/FLUTTER-Web%2C%20App%2C%20Desktop-9cf)
-![MIT License](https://img.shields.io/badge/-Clima-blue)
+---
 
-## Demo
+## 📄 Description
 
-![App Screenshot](https://user-images.githubusercontent.com/88571731/151132523-82e3c28d-1335-49de-ad44-91bc7ae50bfa.gif)
-<br><br><br>
+EduLink contains 4 key modules designed for educational use:
 
-## Run Locally
+### 👨‍🏫 Attendance Module
+- Teachers can mark daily attendance for students.
 
-Clone the project
+### 📝 Test Module
+- Teachers can create, edit, and delete test papers.
+- Students can only view the test papers shared by teachers.
 
-```bash
-  git clone https://github.com/SavanGangani/clima.git
-```
+### 📚 Class Module
+- Teachers can upload PDF notes.
+- Teachers can post announcements for the class.
 
-Go to the project directory
+### 👥 Student Module
+- Both teachers and students can view student details.
 
-```bash
-  cd clima
-```
+---
 
-Install dependencies
+## 🚀 Features
 
-```bash
-  flutter pub get 
-```
+- 🔐 Login with Firebase Authentication
+- ☁️ PDF note uploads via Firebase Cloud Storage
+- 🔄 Password change functionality
+- ✅ Modular design for easy navigation
 
-<br><br>
-## How to get API keys
+---
 
-### Step 1:
+## 🛠️ Packages Used
 
-Go to this side https://openweathermap.org/ and create account.
+- `firebase_auth`
+- `cloud_storage`
+- `file_picker`
 
-### Step 2:
+---
 
-Check mail. and API keys was available in mail.
+## 🔥 Firebase Integration
 
-### Step 3:
+- **Authentication**: Firebase Auth for login and user management  
+- **Firestore**: To manage structured data like attendance, test info, announcements  
+- **Cloud Storage**: For uploading and accessing PDF files  
 
-Add this API keys in ``` lib/weather.dart``` file.
+---
+
+## 📎 GitHub Repository
+
+🔗 [View Source on GitHub](https://github.com/Limysebastian/DonorNet)
+
+---
+
+## 👨‍💻 Author Info
+
+- **GitHub**: [Limysebastian](https://github.com/Limysebastian)
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/limy-sebastian)
+- **Email**: limysebastian@example.com *(Replace with actual)*
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
