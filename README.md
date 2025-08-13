@@ -5,7 +5,7 @@ EduLink is a classroom management app where teachers and students can register. 
 ## 📱 Screenshots
 
 <p align="center">
-  <img src="screenshots/screenshot1.jpeg" width="200"/>
+ assets/screenshots/register.jpeg
   <img src="screenshots/screenshot2.jpeg" width="200"/>
   <img src="screenshots/screenshot3.jpeg" width="200"/>
   <img src="screenshots/screenshot4.jpeg" width="200"/>
